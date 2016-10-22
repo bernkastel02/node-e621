@@ -1,0 +1,30 @@
+{
+  "name": "e621",
+  "version": "0.0.2",
+  "description": "An Node.js module designed to use the e621 API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekonez/node-e621.git"
+  },
+  "keywords": [
+    "furrys",
+    "furry",
+    "e621",
+    "booru"
+  ],
+  "author": "nekonez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekonez/node-e621/issues"
+  },
+  "homepage": "https://github.com/nekonez/node-e621#readme",
+  "dependencies": {
+    "eventemitter3": "^2.0.2",
+    "request": "^2.75.0",
+    "request-promise-any": "^1.0.3"
+  }
+}
